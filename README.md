@@ -1,2 +1,12 @@
 # oyd-exercise-2-1
-Exercise 2.1 — Kubernetes Manifests for a Web Application
+
+## Validate and apply
+
+```bash
+kubectl apply -f k8s/ --dry-run=client
+kubectl apply -f k8s/
+```
+
+## Evidence
+
+![K8s run](evidence/k8s-run.png)
